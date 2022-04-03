@@ -12,11 +12,7 @@ public class LibrettoEsami {
 	}
 	
 	public boolean esameSostenuto(Esame es) {
-		if(libretto.contains(es)) {
-			return true;
-		}else {
-			return false;
-		}
+		return libretto.contains(es);
 	}
 	
 	public String toString() {
